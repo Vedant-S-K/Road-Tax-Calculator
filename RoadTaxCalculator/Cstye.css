@@ -1,0 +1,220 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration:none;
+}
+
+body {
+    font-family: 'Open Sans';
+    height: 100vh;
+    background:#E5E9ED;
+}
+.bike_card{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    width:300px;
+    height:280px;
+    text-align:center;
+    background-color:rgba(123, 239, 178, 1);
+    align-items: center;
+    padding: 40px;
+    border: 1px solid rgba(123, 239, 178, 1);
+    box-shadow: 0px 10px 20px rgba(0,0,0,.2);
+    z-index: 9999;
+}
+.car_card{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    width:300px;
+    height:350px;
+    text-align:center;
+    background-color:rgba(123, 239, 178, 1);
+    align-items: center;
+    padding: 40px;
+    border: 1px solid rgba(123, 239, 178, 1);
+    box-shadow: 0px 10px 20px rgba(0,0,0,.2);
+    z-index: 9999;
+}
+.label1{
+    position:relative;
+    top:-33px;
+    font-family:'Raleway', sans-serif;
+    font-size:larger;
+    font-weight:900;
+    text-decoration:none;
+    text-transform:uppercase;
+    border-bottom:2px solid;
+    color:#343232;
+    letter-spacing:2px;
+}
+.CarBtn{
+    position:relative;
+    top:-20px;
+    left:-5px;
+    height:40px;
+    width:70px;
+    border-radius:40px;
+    border-style:groove;
+    font-family:'Open Sans';
+    letter-spacing:2px;
+    background:#000000;
+    color:#fff;
+    cursor:pointer;
+    outline:none;
+}
+.BikeBtn{
+    position:relative;
+    top:-20px;
+    left:5px;
+    height:40px;
+    width:70px;
+    border-radius:40px;
+    border-style:groove;
+    font-family:'Open Sans';
+    letter-spacing:2px;
+    background:#000000;
+    color:#fff;
+    cursor:pointer;
+    outline:none;
+}
+.label2{
+    position:relative;
+    left:-110px;
+    font-family:'Open Sans';
+    font-size:large;
+    font-weight:500;
+    margin:10px auto;
+    top:-10px;
+}
+.label3{
+    position:relative;
+    left:-165px;
+    font-family:'Open Sans';
+    font-size:large;
+    font-weight:500;
+    margin:10px auto;
+    top:-5px;
+}
+.label4{
+    position:relative;
+    left:-145px;
+    font-family:'Open Sans';
+    font-size:large;
+    font-weight:500;
+    margin:10px auto;
+    top:-5px;
+}
+.label5{
+    position:relative;
+    left:-142px;
+    font-family:'Open Sans';
+    font-size:large;
+    font-weight:500;
+    margin:10px auto;
+    top:5px;
+}
+.label6{
+    position:relative;
+    left:-152px;
+    font-family:'Open Sans';
+    font-size:large;
+    font-weight:500;
+    margin:10px auto;
+    top:-5px;
+}
+.label7{
+    position:relative;
+    left:-90px;
+    font-family:'Open Sans';
+    font-size:large;
+    font-weight:500;
+    margin:10px auto;
+    top:17px;
+}
+.label8{
+    position:relative;
+    left:-90px;
+    font-family:'Open Sans';
+    font-size:large;
+    font-weight:500;
+    margin:10px auto;
+    top:0px;
+}
+.Drop1{
+    position:relative;
+    left:-35px;
+    width:120%;
+}
+.Drop2{
+    position:relative;
+    left:-35px;
+    width:120%;
+    top:10px;
+}
+.Price{
+    position:relative;
+    left:-35px;
+    width:120%;
+    top:-5px;
+}
+.BikeCC{
+    position:relative;
+    left:-35px;
+    width:120%;
+    top:-5px;
+}
+.Date{
+    position:relative;
+    left:-35px;
+    width:120%;
+    top:-5px;
+}
+.CalTax{
+    position:relative;
+    left:-35px;
+    width:120%;
+    top:17px;
+}
+.CalBTax{
+    position:relative;
+    left:-35px;
+    width:120%;
+    top:0px;
+}
+.TaxBtn{
+    position:relative;
+    top:40px;
+    left:5px;
+    height:40px;
+    width:150px;
+    border-radius:40px;
+    border-style:groove;
+    font-family:'Open Sans';
+    letter-spacing:2px;
+    background:#000000;
+    color:#fff;
+    cursor:pointer;
+    outline:none;
+}
+.TaxBtn2{
+    position:relative;
+    top:15px;
+    left:5px;
+    height:40px;
+    width:150px;
+    border-radius:40px;
+    border-style:groove;
+    font-family:'Open Sans';
+    letter-spacing:2px;
+    background:#000000;
+    color:#fff;
+    cursor:pointer;
+    outline:none;
+}
